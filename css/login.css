@@ -1,0 +1,69 @@
+body {
+  background-color: #f0efe2; }
+
+@media (max-width: 997px) {
+  .navbar > h2 {
+    margin-right: 0 !important;
+    margin-left: 85px !important; } }
+.container .search input {
+  width: 300px;
+  height: 38px;
+  background-image: url(../img/Search.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: right; }
+.container .p1-a a {
+  font-size: 26px;
+  color: black; }
+.container .p1-a img {
+  width: 40px;
+  height: 40px; }
+.container .p1-a a:hover {
+  color: cornflowerblue; }
+.container .navbar {
+  border-bottom: 1px solid darkgrey !important;
+  margin-bottom: 8px; }
+.container .navbar > img {
+  width: 50px; }
+.container .lnav {
+  width: 10%;
+  height: 75%;
+  background-color: #e1e0c7;
+  overflow: hidden;
+  margin-top: 74px;
+  position: fixed;
+  left: 10%;
+  top: 5%; }
+.container .lnav button {
+  border-radius: 5px !important; }
+.container .lnav a {
+  color: #c7960f; }
+.container .lnav a:hover {
+  color: #6e6807; }
+.container .lnav img {
+  width: 30px; }
+
+.code {
+  width: 300px;
+  height: 300px;
+  background-color: #d1cb77; }
+  .code img {
+    width: 200px; }
+
+.user li {
+  font-size: 30px;
+  line-height: 60px; }
+  .user li button {
+    width: 100px; }
+.user a {
+  font-size: 16px;
+  color: gray; }
+
+.footer1 {
+  margin-top: 30px;
+  border-top: 1px solid darkgrey !important;
+  color: darkgrey; }
+  .footer1 a {
+    color: darkgray; }
+
+/*# sourceMappingURL=login.css.map */
