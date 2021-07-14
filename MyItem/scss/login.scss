@@ -1,0 +1,93 @@
+body{background-color: rgb(240,239,226);}
+@media (max-width:997px){
+    .navbar{
+        >h2{
+            margin-right: 0!important;
+            margin-left: 85px!important;
+        }
+    }
+}
+@mixin head{
+    .search input{
+        width: 300px;
+        height: 38px;
+        background-image: url(../img/Search.png);
+        background-repeat: no-repeat;
+        background-size: 15%;
+        background-position: right;
+    }
+    .p1-a a{
+        font-size: 26px;
+        color: black;
+    }
+    .p1-a img{
+        width: 40px;
+        height: 40px;
+    }
+    .p1-a a:hover{
+        color: cornflowerblue;
+    }
+    .navbar{
+        border-bottom: 1px solid darkgrey !important;
+        margin-bottom: 8px;
+    }
+    .navbar>img{
+        width: 50px;
+    }
+    .lnav{
+        width: 10%;
+        height: 75%;
+        background-color: rgb(225,224,199);
+        overflow: hidden;
+        margin-top: 74px;
+        position: fixed;
+        left: 10%;
+        top: 5%;
+    }
+    .lnav button{
+        border-radius: 5px!important;
+    }
+    .lnav a{
+        color: rgb(199, 150, 15);
+    }
+    .lnav a:hover{
+        color: rgb(110, 104, 7);
+    }
+    .lnav img{
+        width: 30px;
+    }
+}
+.container{
+    @include head;
+}
+.code{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(209, 203, 119);
+    img{
+        width: 200px;
+    }
+}
+.user{
+    li{
+        font-size: 30px;
+        line-height: 60px;
+        button{
+            width: 100px;
+        }
+    }
+    a{
+        font-size: 16px;
+        color: gray;
+    }
+}
+.footer1{
+    margin-top: 30px;
+    border-top: 1px solid darkgrey !important;
+    color: darkgrey;
+    a{
+        color: darkgray;
+    }
+}
+
+

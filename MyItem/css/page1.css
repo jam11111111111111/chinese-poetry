@@ -1,0 +1,145 @@
+.bbbg{background-color: rgb(240,239,226);}
+.bbg{background-color: rgb(225,224,199);}
+@media (max-width:1870px){
+    .lnav{display: none;}
+}
+@media (max-width: 997px) {
+    .navbar > h2 {
+      margin-right: 0 !important;
+      margin-left: 85px !important; } }
+[src^="./img/x"]:hover{transform: scale(1.5);}
+    .search input{
+        width: 300px;
+        height: 38px;
+        background-image: url(../img/Search.png);
+        background-repeat: no-repeat;
+        background-size: 15%;
+        background-position: right;
+    }
+    .p1-a a{
+        font-size: 26px;
+        color: black;
+    }
+    .p1-a img{
+        width: 40px;
+        height: 40px;
+    }
+    .p1-a a:hover{
+        color: cornflowerblue;
+    }
+    .navbar{
+        border-bottom: 1px solid darkgrey !important;
+        margin-bottom: 8px;
+    }
+    .navbar>img{
+        width: 50px;
+    }
+    .lnav{
+        width: 10%;
+        height: 75%;
+        background-color: rgb(225,224,199);
+        overflow: hidden;
+        margin-top: 74px;
+        position: fixed;
+        left: 10%;
+        top: 5%;
+    }
+    .lnav button{
+        border-radius: 5px!important;
+    }
+    .lnav a{
+        color: rgb(199, 150, 15);
+    }
+    .lnav a:hover{
+        color: rgb(110, 104, 7);
+    }
+    .lnav img{
+        width: 30px;
+    }
+
+
+.f1 img{
+    width: 56px;
+    margin-bottom: 15px;
+}
+.f1-nav{
+    height: 53px;
+    border-bottom: 1px solid darkgrey !important;
+}
+.f1-nav>h3{
+    margin-bottom: 0!important;
+}
+.f11{
+    background-color: rgb(225,224,199);
+    overflow: hidden;
+}
+.f11 img{
+    border-radius: 10px;
+    transition: 1s;
+}
+.f11>img:hover{
+    transform: scale(1.05);
+}
+.f11 h6{
+    color: darkgrey;
+    font-size: 14px;
+}
+.f11>:nth-child(3){
+    color: black;
+    font-size: 20px;
+}
+.f11>:nth-child(4){
+    color: darkgrey;
+    font-size: 18px;
+    border-bottom: 1px solid darkgrey;
+}
+.f11>div img,.f3-icon img{
+    width: 34px;
+}
+/* 第二层 */
+li{
+    display: inline-block;
+    margin-right: 18px;
+    font-size: 18px;
+}
+.f2-bnav{
+    background-color: rgb(225,224,199);
+}
+.f2-nav{
+    border-bottom: 1px solid darkgrey !important;
+    padding-left: 8px;
+    background-color: rgb(240, 227, 209);
+}
+.f2-nav a{
+    color: rgb(7, 55, 145);
+}
+.f3{
+    background-color: rgb(225,224,199);
+    overflow: hidden;
+}
+.f3 h6{
+    font-size: 14px;
+    color: rgb(134, 131, 131);
+    margin: 12px;
+}
+.f3-pic img{
+    width: 30px;
+}
+.f3 p{
+    border-bottom: 1px solid darkgrey;
+    padding: 12px;
+    text-indent: 2rem;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(225,224,199)
+}
+.footer1 a{
+    color: darkgrey;
+}
+.f3-icon img{
+    transition: 1s;
+}
+
+
+
